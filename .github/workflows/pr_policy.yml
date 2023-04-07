@@ -1,0 +1,22 @@
+---
+name: pr_policy
+
+on:
+  pull_request:
+    types: [opened, synchronize, reopened, ready_for_review, edited]
+  pull_request_review:
+    types: [submitted, edited, dismissed]
+  workflow_dispatch:
+  schedule:
+    - cron: "1 3 * * 4" # 03:01 on Thursday UTC
+
+permissions:
+  actions: write
+  contents: read
+  pull-requests: write
+  statuses: write
+
+jobs:
+  pr_policy:
+    uses: Uptycs/workflows/.github/workflows/pr_policy.yml@main
+    secrets: inherit
