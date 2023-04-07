@@ -10,10 +10,10 @@ Describe the tests that you ran to verify your changes.
 Provide instructions on how to run them.
 Please add screenshots if needed.
 
-[ ] Details included in Unit Tests
-[ ] Details included in Integration Tests
-[ ] Manually Tested (details captured elsewhere)
-[ ] I did NOT test
+- [ ] Details included in Unit Tests
+- [ ] Details included in Integration Tests
+- [ ] Manually Tested (details captured elsewhere)
+- [ ] I did NOT test
 
 ### Security & Risks
 
