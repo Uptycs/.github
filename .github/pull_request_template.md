@@ -28,6 +28,8 @@ Please add screenshots if needed.
 - [ ] I have commented my code, particularly in hard-to-understand areas
 - [ ] I have made corresponding changes to the documentation
 - [ ] My changes generate no new warnings
+- [ ] Successfully tested changes on Linux x86
+- [ ] Successfully tested changes on MacOS M1
 - [ ] I have added tests that prove my fix is effective or that my feature works
 - [ ] New and existing unit tests pass locally with my changes
 - [ ] Any dependent changes have been merged and published
